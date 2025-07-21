@@ -32,31 +32,29 @@ pip install -r requirements.txt
 
 Before running the application, you'll need to set up:
 
-1. Google API Key
-2. To get the Gemini AI Studio API key:
+1️⃣ Gemini AI Studio API Key (Required)
+Go to Google AI Studio
+Log in with your Google Account
+Click "Get API key"
+Click "Create API key" (in new project or existing one)
+Click Copy to copy your API key
 
-Go to Google AI Studio: Access the Google AI Studio page at Google AI Studio
-Log in to your Google account.
-Get API key: Click on the "Get API key" button, usually found in the left-side navigation panel.
-Click on the "Create API Key" button, located at the top right.
-Click on the "Create API Key in the New Project" button (if you have an existing project, you can use the key from that project). It will generate an API key. Click the "Copy" button to copy the key. Click on the "Create API Key in the New Project" button (if you have an existing project, you can use the key from that project). It will generate an API key. Click the "Copy" button to copy the key.
-
-To get the Gemini AI Studio API key:
-For Pipedream MCP servers:
-
-Pipedream navigate and sign in with a Google account
-YouTube Data MCP Server: YouTube Data MCP Server
-
-In the Configuration:
-Connect with your Google account and give all required permissions to access
+2️⃣ YouTube Data MCP Server (Required)
+Go to Pipedream
+Log in with your Google Account
+Search for YouTube Data MCP Server
+Authorize and grant all permissions
 Copy the MCP server URL
-Do the same for the drive and notion MCP servers:
 
+3️⃣ Google Drive or Notion MCP Server
 Google Drive MCP Server
+Log in via Pipedream
+Search: Google Drive MCP Server
+Grant permissions and copy the MCP URL
 Notion MCP Server
-3. Pipedream URLs for:
-   - YouTube (required)
-   - Google Drive or Notion (based on your preference)
+Log in via Pipedream
+Search: Notion MCP Server
+Authorize access and copy the MCP URL
 
 ## Running the Application
 
